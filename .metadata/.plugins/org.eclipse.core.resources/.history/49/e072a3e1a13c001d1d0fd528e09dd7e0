@@ -1,0 +1,16 @@
+package classes;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		CustomerManager customerManager = new CustomerManager(); // Class çağırımı-nesne üretimi
+
+		customerManager.Add();
+
+		customerManager.Delete();
+
+		customerManager.Update();
+	}
+
+}

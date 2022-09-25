@@ -1,0 +1,31 @@
+package classes;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		CustomerManager customerManager = new CustomerManager(); // Class çağırımı-nesne üretimi
+
+		customerManager.Add();
+
+		customerManager.Delete();
+
+		customerManager.Update();
+
+		int sayi1 = 20;
+		int sayi2 = 20;
+		sayi2 = sayi1;
+
+		sayi1 = 30;
+		System.out.println(sayi2);
+
+		int[] sayilar1 = { 1, 2, 3 };
+
+		int[] sayilar2 = { 4, 5, 6 };
+
+		sayilar2 = sayilar1;
+		sayilar1[0] = 10;
+		System.out.println(sayilar2[0]);
+	}
+
+}
